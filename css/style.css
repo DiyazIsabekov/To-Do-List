@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Anybody:ital,wght@0,100;0,200;0,400;0,500;1,300&display=swap');
+
+body {
+    font-family: "Anybody";
+
+    background: url(../img/mountains-triangle-retrowave-art-landscape-neon-reflections-7680x4320-8311.png) center / cover no-repeat;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 50px;
+    color: yellowgreen;
+    animation: anim 5s linear infinite;
+}
+
+@keyframes anim {
+    from {
+        filter: hue-rotate(0deg);
+    }
+
+    to {
+        filter: hue-rotate(360deg);
+    }
+}
+
+.styles {
+    width: 60%;
+    height: 90vh;
+    text-align: center;
+    border: 1px solid rgba(0, 0, 0, 0.370);
+    margin: 50px 0;
+    box-shadow: 0 8px 32px 0 black;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    -webkit-backdrop-filter: blur(20px);
+    backdrop-filter: blur(20px);
+    border-radius: 32px;
+}
+
+#inp {
+    width: 60%;
+    font-size: 30px;
+    background-color: rgba(128, 128, 128, 0.507);
+}
+
+#btnAdd {
+    padding: 20px;
+    font-size: 20px;
+}
+
+.task {
+    background: white;
+    margin: 20px;
+}
